@@ -1,6 +1,6 @@
 {
   "name": "gulp-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gulp boilerplate to start your next project.",
   "main": "gulpfile.js",
   "preferGlobal": true,
@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "fs-extra": "^0.18.2",
+    "mkdirp": "^0.5.0",
     "path": "^0.11.14"
   },
   "devDependencies": {},

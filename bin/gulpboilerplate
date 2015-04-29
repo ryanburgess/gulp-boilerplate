@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var
+var mkdirp    = require('mkdirp'),
   fs          = require('fs-extra'),
   path        = require('path'),
   pkg         = require('../package.json'),
