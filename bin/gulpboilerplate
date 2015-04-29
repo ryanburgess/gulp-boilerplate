@@ -12,7 +12,7 @@ fs.readFile(path.join(__dirname, '../gulpfile.js'), 'utf8', function (err,data) 
   if (err) {
     return console.log(err);
   }
-  write(__dirname, data);
+  write(dir + '/', data);
 });
 
 function write(path, str, mode) {
