@@ -1,0 +1,39 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.0.0",
+  "description": "A gulp boilerplate to start your next project.",
+  "main": "gulpfile.js",
+  "preferGlobal": true,
+  "bin": {
+    "gulp-boilerplate": "./bin/gulpboilerplate"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanburgess/gulp-boilerplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "javascript",
+    "boilerplate",
+    "gulp-boilerplate",
+    "web",
+    "front-end",
+    "sass",
+    "build",
+    "start"
+  ],
+  "dependencies": {
+    "fs-extra": "^0.18.2",
+    "path": "^0.11.14"
+  },
+  "devDependencies": {},
+  "author": "Ryan Burgess @burgessdryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanburgess/gulp-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ryanburgess/gulp-boilerplate"
+}
