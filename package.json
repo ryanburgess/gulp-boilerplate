@@ -1,6 +1,6 @@
 {
   "name": "gulp-boilerplate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A gulp boilerplate to start your next project.",
   "main": "gulpfile.js",
   "preferGlobal": true,
