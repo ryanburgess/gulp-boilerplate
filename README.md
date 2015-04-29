@@ -1,5 +1,6 @@
 Gulp Boilerplate
 =============
+A gulp boilerplate to start your next project.
  
 ## Install
 ```js
@@ -14,6 +15,7 @@ gulp-boilerplate
 ```
 
 ## Release History
+* 1.0.6: Fixes for CLI scaffolding script.
 * 1.0.0: Initial release.
  
 ## Contributing
