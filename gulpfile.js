@@ -1,15 +1,15 @@
-var gulp = require('gulp'),
-  minifyCSS = require('gulp-minify-css'),
-  sass = require('gulp-sass'),
-  browserify = require('gulp-browserify'),
-  browserSync = require('browser-sync'),
-  uglify = require('gulp-uglify'),
-  rename = require('gulp-rename'),
-  jshint = require('gulp-jshint'),
-  jshintStyle = require('jshint-stylish'),
-  replace = require('gulp-replace'),
-  notify = require('gulp-notify'),
-  path = require('path');
+var gulp        = require('gulp'),
+  minifyCSS     = require('gulp-minify-css'),
+  sass          = require('gulp-sass'),
+  browserify    = require('gulp-browserify'),
+  browserSync   = require('browser-sync'),
+  uglify        = require('gulp-uglify'),
+  rename        = require('gulp-rename'),
+  jshint        = require('gulp-jshint'),
+  jshintStyle   = require('jshint-stylish'),
+  replace       = require('gulp-replace'),
+  notify        = require('gulp-notify'),
+  path          = require('path');
 
 gulp.task('browser-sync', function() {
   browserSync({
