@@ -7,7 +7,6 @@ Gulp plugins included in the boilerplate:
 * gulp-browserify
 * gulp-uglify
 * gulp-jshint
-* 
 
 ## Install
 ```js
