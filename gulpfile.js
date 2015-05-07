@@ -47,7 +47,7 @@ gulp.task('jshint', function() {
 });
 
 gulp.task('scripts', function() {
-  gulp.src('js/project.js')
+  gulp.src('js/*.js')
     .pipe(browserify({
       insertGlobals : true,
       debug : !gulp.env.production
