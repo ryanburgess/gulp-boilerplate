@@ -3,10 +3,10 @@ Gulp Boilerplate
 A gulp boilerplate to start your next project.
 
 Gulp plugins included in the boilerplate:
-* gulp-sass
-* gulp-browserify
-* gulp-uglify
-* gulp-jshint
+* [gulp-sass](https://github.com/dlmanning/gulp-sass)
+* [gulp-browserify](https://github.com/deepak1556/gulp-browserify)
+* [gulp-uglify](https://github.com/terinjokes/gulp-uglify)
+* [gulp-jshint](https://github.com/spalger/gulp-jshint)
 
 ## Install
 ```js
