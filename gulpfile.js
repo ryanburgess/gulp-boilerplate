@@ -3,6 +3,7 @@ var gulp        = require('gulp'),
   sass          = require('gulp-sass'),
   browserify    = require('gulp-browserify'),
   uglify        = require('gulp-uglify'),
+  nodeunit      = require('gulp-nodeunit'),
   rename        = require('gulp-rename'),
   jshint        = require('gulp-jshint'),
   jshintStyle   = require('jshint-stylish'),
@@ -48,5 +49,13 @@ gulp.task('watch', function() {
   gulp.watch('views/**/*.html', ['html']);
 });
 
-gulp.task('test', ['jshint']);
+// nodeunit tests
+gulp.task('nodeunit', function () {
+  gulp.src('test/**/*.js')
+    .pipe(nodeunit({
+      reporter: 'junit'
+    }));
+});
+
+gulp.task('test', ['jshint', 'nodeunit']);
 gulp.task('default', ['watch']);
