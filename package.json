@@ -1,6 +1,6 @@
 {
   "name": "gulp-boilerplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A gulp boilerplate to start your next project.",
   "main": "gulpfile.js",
   "preferGlobal": true,
@@ -8,7 +8,7 @@
     "gulp-boilerplate": "./bin/gulpboilerplate"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
