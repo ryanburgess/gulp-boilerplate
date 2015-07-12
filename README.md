@@ -1,6 +1,6 @@
 # Gulp Boilerplate
 
-[![npm version](https://badge.fury.io/js/gulp-boilerplate.svg)](http://badge.fury.io/js/gulp-boilerplate) [![Build Status](https://travis-ci.org/ryanburgess/gulp-boilerplate.svg?branch=master)](https://travis-ci.org/ryanburgess/gulp-boilerplate)
+[![npm version](https://badge.fury.io/js/gulp-boilerplate.svg)](http://badge.fury.io/js/gulp-boilerplate) [![npm](https://img.shields.io/npm/dm/gulp-boilerplate.svg)](https://github.com/ryanburgess/gulp-boilerplate) [![Build Status](https://travis-ci.org/ryanburgess/gulp-boilerplate.svg?branch=master)](https://travis-ci.org/ryanburgess/gulp-boilerplate)
 
 A gulp boilerplate to start your next project.
 
