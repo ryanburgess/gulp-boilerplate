@@ -9,10 +9,10 @@ const rename = require('gulp-rename');
 const source = require('vinyl-source-stream');
 
 gulp.task('sass', function () {
-  return gulp.src('sass/**/*.scss')
-    .pipe(sass())
-    .pipe(minifyCSS())
-    .pipe(gulp.dest('./public/css/'));
+  return gulp.src('sass/**/*.scss') // find all .scss files in sass directory
+    .pipe(sass()) // run sass
+    .pipe(minifyCSS()) // mimnify CSS
+    .pipe(gulp.dest('./public/css/')); // create css file in directory public/css
 });
 
 // --------------------------------------------------------------
@@ -36,9 +36,9 @@ gulp.task('javascript', function() {
   const fullFile = jsxPath + fileName + '.jsx';
   const bundler = browserify({
     extensions: ['.js', '.jsx'],
-    transform: ['babelify']
+    transform: ['babelify'] // use babel to transpile
   });
-
+  // bundler add the fullfile
   bundler.add(fullFile);
 
   const stream = bundler.bundle();
@@ -57,19 +57,19 @@ gulp.task('javascript', function() {
 //  Compress/minify JavaScript
 // --------------------------------------------------------------
 gulp.task('compress', function() {
-  return gulp.src('./public/js/*.js')
-    .pipe(uglify())
+  return gulp.src('./public/js/*.js') // look for all files in public/js/ directory
+    .pipe(uglify()) // minify JavaScript files
     .pipe(rename({
-       extname: '.min.js'
+       extname: '.min.js' // add .min.js to minified JavaScript file name
      }))
-    .pipe(gulp.dest('./public/js/min/'));
+    .pipe(gulp.dest('./public/js/min/')); // save minified JavaScript files in public/js/min/ directory
 });
 
 // --------------------------------------------------------------
 //  Watch
 // --------------------------------------------------------------
 gulp.task('watch', function() {
-  gulp.watch('sass/**/*.scss', ['sass']);
+  gulp.watch('sass/**/*.scss', ['sass']); // watch all .scss files in sass/ directory. When files change run sass task
   gulp.watch(['./jsx/**/*'], ['lint', 'javascript', 'compress']);
 });
 

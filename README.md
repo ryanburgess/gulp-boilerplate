@@ -4,12 +4,6 @@
 
 A gulp boilerplate to start your next project.
 
-Gulp plugins included in the boilerplate:
-* [gulp-sass](https://github.com/dlmanning/gulp-sass)
-* [gulp-browserify](https://github.com/deepak1556/gulp-browserify)
-* [gulp-uglify](https://github.com/terinjokes/gulp-uglify)
-* [gulp-jshint](https://github.com/spalger/gulp-jshint)
-
 ## Install
 ```js
 npm install gulp-boilerplate -g
@@ -23,6 +17,8 @@ gulp-boilerplate
 ```
 
 ## Release History
+* 1.1.3: Add gulp scripts to npm install command
+* 1.1.2: Update gulpfile
 * 1.1.1: add Travis CI testing.
 * 1.1.0: Update browserify to build all files in root JS.
 * 1.0.8: Update documentation.
@@ -35,5 +31,7 @@ gulp-boilerplate
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am "Add some feature"`)
 4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request## License
+5. Create new Pull Request
+
+## License
 MIT © [Ryan Burgess](http://github.com/ryanburgess)
