@@ -1,6 +1,6 @@
 {
   "name": "gulp-boilerplate",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "A gulp boilerplate to start your next project.",
   "main": "gulpfile.js",
   "preferGlobal": true,
@@ -27,6 +27,18 @@
   ],
   "dependencies": {
     "fs-extra": "^0.18.4",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nodeunit": "^0.1.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
     "npm": "^2.15.12",
     "path": "^0.11.14"
   },

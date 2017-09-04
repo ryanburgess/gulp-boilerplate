@@ -17,6 +17,7 @@ gulp-boilerplate
 ```
 
 ## Release History
+* 1.1.4: Clean up boilerplate script
 * 1.1.3: Add gulp scripts to npm install command
 * 1.1.2: Update gulpfile
 * 1.1.1: add Travis CI testing.
